@@ -15,15 +15,15 @@ var score=0;
 var survivalTime=0;
 function preload() {
     //bg = loadImage("images/beginning.png")
-    boyImage = loadAnimation("images/sprite1.png",
-        "images/sprite2.png",
-        "images/sprite3.png",
-        "images/sprite4.png",
-        "images/sprite5.png",
+    boyImage = loadAnimation("Images/sprite1.png",
+        "Images/sprite2.png",
+        "Images/sprite3.png",
+        "Images/sprite4.png",
+        "Images/sprite5.png",
     )
-    coinImage = loadImage("images/coin.png")
-    trackImage=loadImage("images/tracks.jpg")
-    spikeImage=loadImage("images/spike1.png")
+    coinImage = loadImage("Images/coin.png")
+    trackImage=loadImage("Images/tracks.jpg")
+    spikeImage=loadImage("Iages/spike1.png")
 }
 function setup() {
     canvas = createCanvas(600, 600);

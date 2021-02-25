@@ -23,7 +23,7 @@ function preload() {
     )
     coinImage = loadImage("Images/coin.png")
     trackImage=loadImage("Images/tracks.jpg")
-    spikeImage=loadImage("Iages/spike1.png")
+    spikeImage=loadImage("Images/spike1.png")
 }
 function setup() {
     canvas = createCanvas(600, 600);
